@@ -265,6 +265,7 @@ body {
 .habilidade-card i {
     font-size: 4.5rem; /* Tamanho grande para o ícone */
     margin-bottom: 1rem;
+    cursor: pointer;
 }
 
 .habilidade-card p {
@@ -304,6 +305,7 @@ body {
         
         /* Camada de BAIXO (gradiente) -> esticada até a borda */
         linear-gradient(to right, #208c94, #00eeff) border-box;
+    cursor: pointer;
 }
 
 .projeto-card:hover {
@@ -311,9 +313,9 @@ body {
     transform: scale(1.02);
 }
 
-projeto-card:hover {
+/*projeto-card:hover {
   background: #2ecc71;
-}
+}*/
 
 .projeto-card img {
     width: 100%;
