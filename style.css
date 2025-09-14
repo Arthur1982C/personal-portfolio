@@ -28,7 +28,7 @@ body {
     animation: float 3s ease-in-out infinite;
 }
 
-/* SISTEMA FLUTUANTE NA IMAGEM
+/* SISTEMA FLUTUANTE NA IMAGEM 
 @keyframes float {
     0%, 100%{
         transform: translateY(0);
@@ -193,7 +193,7 @@ body {
 }
 
 .btn:hover {
-    box-shadow: 0 0 20px var(--main-color);
+    box-shadow: 0 0 6px var(--main-color);
 }
 
 /* SEÇÃO SOBRE */
